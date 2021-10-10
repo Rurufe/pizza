@@ -7,6 +7,7 @@ body {
     padding-right: 15px;
     max-width: 1170px;
     margin: 0 auto;
+    position: relative;
 }
 .nav {
     display: flex;
@@ -43,7 +44,42 @@ body {
     color: #494949;
 }
 .banner {
+   background-image: url(../img/bannerpng.png); 
+   background-repeat: no-repeat;
+   background-size: cover;
+   background-position: center center;
+   color: #fff;
+   padding-top: 260px;
+   padding-bottom: 285px;
+}
+.pizza {
+    position: absolute;
+    right: 0;
+    top: -220px;
+}
+.title {
+    font-size: 50px;
+    font-weight: 400;
+    margin-bottom: 23px;
+}
+.text {
+    font-size: 25px;
+    line-height: 30px;
+    max-width: 570px;
+    font-family: 'Roboto', sans-serif;
+    margin-bottom: 30px;
+}
+.btn {
+    display: block;
+    max-width: 190px;
+    text-align: center;
+    text-decoration: none;
+    text-transform: uppercase;
+    color: #fff;
+    font-size: 20px;
+    font-weight: 800;
+    border: 2px solid #fff;
+    padding: 16px 0;
+
     
 }
-git status
-kuhjhlkfniasjnf
