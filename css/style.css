@@ -88,6 +88,7 @@ body {
     font-weight: 700;
     text-align: center;
     position: relative;
+    margin-bottom: 20px;
 }
 .page__title::before {
     content: '';
@@ -106,4 +107,104 @@ body {
     display: block;
     width: 102px;
     height: 28px;
+}
+.page__text {
+  font-size: 20px;
+  font-weight: 400;
+  color: #959595;
+  font-family: 'Roboto', sans-serif;
+  text-align: center;
+
+}
+.page__list {
+    display: flex;
+    justify-content: center;
+    list-style: none;
+    padding-left: 0;
+    margin-top: 42px;
+    
+}
+.page__item {
+    margin-left: 20px;
+    margin-right: 20px;
+    position: relative;
+}
+.page__link {
+    text-decoration: none;
+    color: #494848;
+    font-size: 18px;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+.page__item:not(:first-child)::before {
+    content: '';
+    display: block;
+    width: 3px;
+    height: 100%;
+    background-color: #494949;
+    position: absolute;
+    left: -20px;
+}
+a.active {
+    border-bottom: 4px solid #ee252d;
+    padding-bottom: 20px;
+}
+.box {
+    background-color: #ffffff;
+    display: flex;
+    justify-content: space-between;
+}
+.box__item {
+    padding: 0 55px;
+}
+.number {
+    font-family: 'Roboto', sans-serif;
+    font-size: 120px;
+    font-weight: 900;
+    line-height: 0; 
+    position: relative;
+    margin-bottom: 0;
+}
+.number_one::after {
+    content: '';
+    position: absolute;
+    left: 69px;
+    display: block;
+    background-image: url(../img/icon01png.png);
+    width: 126px;
+    height: 71px;
+    top: -38px;
+}
+.number_two::after {
+    content: '';
+    display: block;
+    position: absolute;
+    left: 88px;
+    background-image: url(../img/icon02.png);
+    width: 184px;
+    height: 81px;
+    top: -40px;
+    
+}
+.number_three::after {
+    content: '';
+    display: block;
+    position: absolute;
+    left: 94px;
+    background-image: url(../img/icon03.png);
+    width: 142px;
+    height: 68px;
+    top: -35px;
+}
+.box__title {
+    font-size: 45px;
+    font-weight: 700;
+    line-height: 0;
+}
+.box__subtitle {
+    font-family: 'Roboto', sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    max-width: 255px;
+    color: #282828;
 }
